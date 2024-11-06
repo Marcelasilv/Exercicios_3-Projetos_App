@@ -1,2 +1,2 @@
-# Motivational Quote Generator
+# Cronometro
 

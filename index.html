@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contador Restaurante</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cronômetro</title>
 </head>
+
 <body>
-  <div id="container">
-    <h1>Contador de Pessoas no Restaurante</h1>
-    <div id="counterDisplay">
-      <span id="count">0</span>
+    <h1>Cronômetro</h1>
+    <div class="numeros">
+
+        <div class="time" id="minutes">00</div>
+        <div class="separador">:</div>
+        <div class="time" id="secounds">00</div>
+        <div class="separador">:</div>
+        <div class="time" id="milliseconds">000</div>
+
     </div>
-    <div id="controls">
-      <button id="incrementButton">Entrou +1</button>
-      <button id="decrementButton">Saiu -1</button>
+
+    <div class="button">
+        <button class="btn" id="start">Iniciar</button>
+        <button class="btn" id="stop">Pausar</button>
+        <button class="btn" id="resume">Continuar</button>
+        <button class="btn" id="reset">Resetar</button>
     </div>
-  </div>
-  <script src="script.js"></script>
 </body>
+<script src="./script.js"></script>
+
 </html>

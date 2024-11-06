@@ -1,0 +1,22 @@
+{
+  "name": "react-native-counters",
+  "version": "1.3.0",
+  "description": "React native Minus(-) (Number) Plus(+) Component",
+  "author": "Yasar ICLI <marcela.silva@a.ucb.br>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelasilv/react-native-counters.git"
+  },
+  "keywords": [
+    "React",
+    "React-native",
+    "Minus",
+    "Plus",
+    "Mobile"
+  ],
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react-native-text": "^1.0.8"
+  }
+}

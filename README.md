@@ -1,1 +1,2 @@
-# Exercicios_3-Projetos_App
+# Motivational Quote Generator
+

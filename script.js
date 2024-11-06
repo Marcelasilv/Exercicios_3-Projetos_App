@@ -18,7 +18,7 @@ stopjs.addEventListener("click" ,stopTime )
 resumejs.addEventListener("click" , resumeTime)
 resetjs.addEventListener("click" , resetTime)
 
-function startTimer() {
+function startTimer() { 
 
     interval = setInterval(() => {
 
